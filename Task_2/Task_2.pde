@@ -4,7 +4,7 @@ void setup() {
   println (sum(2, 3)); //2.b
   println (toUpperCase("string")); //2.c
   println (stortForbogstav("String")); //2.d
-  
+
 
   if (iAmHappy())
   {
@@ -31,6 +31,6 @@ String toUpperCase(String caps) {
 }
 
 //2.d
-boolean stortForbogstav(String forbogstav) {  
+boolean stortForbogstav(String forbogstav) {
   return Character.isUpperCase(forbogstav.charAt(0));
 }
