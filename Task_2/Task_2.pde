@@ -2,7 +2,7 @@ boolean happy = true;
 
 void setup() {
   println (sum(2, 3)); //2.b
-  println (toUpperCase("String")); //2.c
+  println (toUpperCase("string")); //2.c
 
   if (iAmHappy())
   {
