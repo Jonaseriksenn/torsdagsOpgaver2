@@ -14,10 +14,4 @@ class Student {
   String toString() {
     return "Student: " + navn + ", Alder: " + alder + ", Kvinde: " + erKvinde + ", Team: " + datamatikerTeam;
   }
-
-//5.a
-  boolean isClassmates(Student Morten, Student Jonas) {
-    //5.b
-return Jonas.datamatikerTeam == Morten.datamatikerTeam;
-  }
 }

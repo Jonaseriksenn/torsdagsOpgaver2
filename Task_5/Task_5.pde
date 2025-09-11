@@ -8,11 +8,17 @@ void setup() {
   println(Jonas);
   println(Morten);
   
+  //5.a
+  boolean result = isClassmates(Jonas, Morten);
   //5.c
-    boolean isClassmates = isClassmates(Student Jonas, Student Morten);
-  if (isClassmates) {
+  if (result) {
     println(Jonas.navn + " and " + Morten.navn + " are classmates");
   } else {
     println(Jonas.navn + " and " + Morten.navn + " are not classmates");
   }
+}
+
+//5.b
+boolean isClassmates(Student s1, Student s2) {
+  return s1.datamatikerTeam.equals(s2.datamatikerTeam);
 }
