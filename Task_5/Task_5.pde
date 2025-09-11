@@ -10,6 +10,7 @@ void setup() {
   
   //5.a
   boolean result = isClassmates(Jonas, Morten);
+  
   //5.c
   if (result) {
     println(Jonas.navn + " and " + Morten.navn + " are classmates");
